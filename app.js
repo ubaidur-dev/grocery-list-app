@@ -1,15 +1,14 @@
-var inputField = document.getElementById('groceryInput');
-var listArea = document.getElementById('groceryList');
+const itemInput = document.getElementById('groceryInput');
+const itemsList = document.getElementById('groceryList');
 
 function addItem() {
-    var itemText = inputField.value;
-
+    const textValue = itemInput.value.trim();
     if (itemText.trim() == "") {
         alert("Please enter any item!");
         return;
     }
 
-    var li = document.createElement('li');
+    const listItem = document.createElement('li');
     li.className = "list-group-item list-item p-3";
     
     li.innerHTML = `
@@ -25,4 +24,5 @@ inputField.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         addItem();
     }
+
 });
