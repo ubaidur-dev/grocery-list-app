@@ -18,4 +18,5 @@ The goal was to create a practical tool that is both functional and well-designe
 * **Bootstrap 5:** For a quick and professional-looking grid.
 
 ### How to Use
-Just download or clone the folder and open the index.html file in your browser. No extra setup is needed!
+* Just **download** or **clone** the folder and open the **index.html** file in your browser. 
+* No extra setup is needed!
